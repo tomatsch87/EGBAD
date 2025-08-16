@@ -2,7 +2,7 @@
 
 ## Overview
 
-For the task of anomaly detection on a dataset of chest X-ray images, this repository features an implementation and evaluation of the `EGBAD` ([Efficient GAN-Based Anomaly Detection](<(http://arxiv.org/abs/1802.06222)>)) model. Additionally, various enhancements to improve its performance have been implemented, including a `WGAN` (Wasserstein GAN) version of EGBAD with gradient penalty.
+For the task of anomaly detection on a dataset of chest X-ray images, this repository features an implementation and evaluation of the `EGBAD` ([Efficient GAN-Based Anomaly Detection]((http://arxiv.org/abs/1802.06222))) model. Additionally, various enhancements to improve its performance have been implemented, including a `WGAN` (Wasserstein GAN) version of EGBAD with gradient penalty.
 
 ## EGBAD Adaptations
 
