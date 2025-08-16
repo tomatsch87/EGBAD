@@ -2,11 +2,11 @@
 
 ## Overview
 
-For the task of anomaly detection on a dataset of chest X-ray images, this repository features an implementation and evaluation of the `EGBAD` ([Efficient GAN-Based Anomaly Detection]((http://arxiv.org/abs/1802.06222))) model. Additionally, various enhancements to improve its performance have been implemented, including a `WGAN` (Wasserstein GAN) version of EGBAD with gradient penalty.
+For the task of anomaly detection on a dataset of chest X-ray images, this repository features an implementation and evaluation of the `EGBAD` [Efficient GAN-Based Anomaly Detection](http://arxiv.org/abs/1802.06222) model. Additionally, various enhancements to improve its performance have been implemented, including a `WGAN` (Wasserstein GAN) version of EGBAD with gradient penalty.
 
 ## EGBAD Adaptations
 
-`EGBAD` utilizes a `BiGAN` ([Bidirectional Generative Adversarial Network](http://arxiv.org/abs/1605.09782)) with an additional anomaly score based on feature and pixel-valued reconstruction to tackle the task of anomaly detection.
+`EGBAD` utilizes a `BiGAN` [Bidirectional Generative Adversarial Network](http://arxiv.org/abs/1605.09782) with an additional anomaly score based on feature and pixel-valued reconstruction to tackle the task of anomaly detection.
 
 Additionally, some ideas from "An improved BiGAN based approach for anomaly detection" by [Kaplan and Alptekin](https://www.sciencedirect.com/science/article/pii/S1877050920318445) were implemented with an additional reconstruction loss term to the BiGAN to stabilize and enhance the training process. The best variant turned out to be a feature-based reconstruction loss that jointly trains Encoder and Generator, which significantly improved the model's performance over the original EGBAD implementation.
 
