@@ -33,8 +33,8 @@ EGBAD/
 ## Usage
 
 ```bash
-git clone https://github.com/tomatsch87/egbad.git
-cd egbad
+git clone https://github.com/tomatsch87/EGBAD.git
+cd EGBAD
 ```
 
 ### Training
